@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GEP_GAME.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{68FF2341-0023-425C-A87D-992FB2CA7E85}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GEP_GAME.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GEP_GAMEEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{174F02A3-FC5C-430D-930C-EF667187D943}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GEP_GAME">
+      <UniqueIdentifier>{35E9D63C-2FF3-4437-A0B8-722AFC57F6FD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GEP_GAME\GEP_GAME.Build.cs">
+      <Filter>Source\GEP_GAME</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GEP_GAME\GEP_GAME.cpp">
+      <Filter>Source\GEP_GAME</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GEP_GAME\GEP_GAME.h">
+      <Filter>Source\GEP_GAME</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GEP_GAME\GEP_GAMEGameModeBase.cpp">
+      <Filter>Source\GEP_GAME</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GEP_GAME\GEP_GAMEGameModeBase.h">
+      <Filter>Source\GEP_GAME</Filter>
+    </ClInclude>
+    <Filter Include="Source\GEP_GAME\Private">
+      <UniqueIdentifier>{5BADD22C-0BFB-47C1-AF3D-E40346D8C599}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GEP_GAME\Private\HeathComponent.cpp">
+      <Filter>Source\GEP_GAME\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\GEP_GAME\Public">
+      <UniqueIdentifier>{261FBE01-960B-4513-B5A8-D7176818B1C6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GEP_GAME\Public\HeathComponent.h">
+      <Filter>Source\GEP_GAME\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{EDCA1443-472A-C0FF-78F5-D6811C17C94E}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "GEP_GAME",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
