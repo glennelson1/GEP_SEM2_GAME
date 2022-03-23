@@ -6,11 +6,14 @@
 // Sets default values for this component's properties
 UHeathComponent::UHeathComponent()
 {
-	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
-	// off to improve performance if you don't need them.
+	
 	PrimaryComponentTick.bCanEverTick = true;
 
-	// ...
+	m_MaxHealth = 100.f;
+	m_MaxShield = 100.f;
+	m_CanRegenSheild = true;
+	m_SheildRevoverRate = 10.f;
+	m_SheildRevoverDelay = 2.f;
 }
 
 
@@ -19,16 +22,36 @@ void UHeathComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
+	GetOwner()->OnTakeAnyDamage.AddDynamic(this, &UHeathComponent::DamgeTaken);
+	m_CurrentHealth = m_MaxHealth;
+	m_CurrentShield = m_MaxShield;
 	
 }
+void UHeathComponent::DamgeTaken(AActor* damagedAcator, float damage, const UDamageType* damageType, AController* instigator, AActor* causer)
+{
+	float leftOverDamage = FMath::Max(damage - m_CurrentShield, 0.f);
+	m_CurrentShield = FMath::Max(m_CurrentShield - damage, 0.f);
+	m_SheildRecoverDelayTimer = m_SheildRevoverDelay;
 
+	if(leftOverDamage > 0.f){m_CurrentHealth = FMath::Max(m_CurrentHealth - leftOverDamage, 0.f);}
+
+	if(m_CurrentHealth <= 0.f){onComponentDead.Broadcast(instigator);}
+}
 
 // Called every frame
 void UHeathComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+	if(m_CurrentShield == m_MaxShield || !m_CanRegenSheild) {return;}
+	
+	if(m_SheildRecoverDelayTimer > 0.f)
+	{
+		m_SheildRecoverDelayTimer -= DeltaTime;
+	}
+	else
+	{
+		m_CurrentShield = FMath::Min(m_MaxShield, m_CurrentShield + (m_SheildRevoverRate * DeltaTime));
+	}
 }
 

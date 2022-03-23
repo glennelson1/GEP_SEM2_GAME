@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "HeathComponent.generated.h"
-
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FComponentDeadSignature, AController*, causer);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class GEP_GAME_API UHeathComponent : public UActorComponent
@@ -16,13 +16,35 @@ public:
 	// Sets default values for this component's properties
 	UHeathComponent();
 
+	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
+	UPROPERTY(BlueprintAssignable, Category= "Component")
+	FComponentDeadSignature onComponentDead;
+
+	
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Health");
+	float m_CurrentHealth;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Health");
+	float m_MaxHealth;
 
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Shield");
+	float m_CurrentShield;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Shield");
+	float m_MaxShield;
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Shield");
+	bool m_CanRegenSheild;
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Shield");
+	float m_SheildRecoverDelayTimer;
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Shield")
+	float m_SheildRevoverRate;
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Shield");
+	float m_SheildRevoverDelay;
+
+	UFUNCTION()
+	void DamgeTaken(AActor* damagedAcator, float damage, const UDamageType* damageType, AController* m_instigator, AActor* causer);
 		
 };

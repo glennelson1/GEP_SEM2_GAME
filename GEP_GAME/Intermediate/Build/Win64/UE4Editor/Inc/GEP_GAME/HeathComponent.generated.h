@@ -8,14 +8,38 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AController;
+class AActor;
+class UDamageType;
 #ifdef GEP_GAME_HeathComponent_generated_h
 #error "HeathComponent.generated.h already included, missing '#pragma once' in HeathComponent.h"
 #endif
 #define GEP_GAME_HeathComponent_generated_h
 
+#define GEP_GAME_Source_GEP_GAME_Public_HeathComponent_h_8_DELEGATE \
+struct _Script_GEP_GAME_eventComponentDeadSignature_Parms \
+{ \
+	AController* causer; \
+}; \
+static inline void FComponentDeadSignature_DelegateWrapper(const FMulticastScriptDelegate& ComponentDeadSignature, AController* causer) \
+{ \
+	_Script_GEP_GAME_eventComponentDeadSignature_Parms Parms; \
+	Parms.causer=causer; \
+	ComponentDeadSignature.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
 #define GEP_GAME_Source_GEP_GAME_Public_HeathComponent_h_13_SPARSE_DATA
-#define GEP_GAME_Source_GEP_GAME_Public_HeathComponent_h_13_RPC_WRAPPERS
-#define GEP_GAME_Source_GEP_GAME_Public_HeathComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define GEP_GAME_Source_GEP_GAME_Public_HeathComponent_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execDamgeTaken);
+
+
+#define GEP_GAME_Source_GEP_GAME_Public_HeathComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDamgeTaken);
+
+
 #define GEP_GAME_Source_GEP_GAME_Public_HeathComponent_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUHeathComponent(); \
@@ -58,7 +82,17 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHeathComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UHeathComponent)
 
 
-#define GEP_GAME_Source_GEP_GAME_Public_HeathComponent_h_13_PRIVATE_PROPERTY_OFFSET
+#define GEP_GAME_Source_GEP_GAME_Public_HeathComponent_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__m_CurrentHealth() { return STRUCT_OFFSET(UHeathComponent, m_CurrentHealth); } \
+	FORCEINLINE static uint32 __PPO__m_MaxHealth() { return STRUCT_OFFSET(UHeathComponent, m_MaxHealth); } \
+	FORCEINLINE static uint32 __PPO__m_CurrentShield() { return STRUCT_OFFSET(UHeathComponent, m_CurrentShield); } \
+	FORCEINLINE static uint32 __PPO__m_MaxShield() { return STRUCT_OFFSET(UHeathComponent, m_MaxShield); } \
+	FORCEINLINE static uint32 __PPO__m_CanRegenSheild() { return STRUCT_OFFSET(UHeathComponent, m_CanRegenSheild); } \
+	FORCEINLINE static uint32 __PPO__m_SheildRecoverDelayTimer() { return STRUCT_OFFSET(UHeathComponent, m_SheildRecoverDelayTimer); } \
+	FORCEINLINE static uint32 __PPO__m_SheildRevoverRate() { return STRUCT_OFFSET(UHeathComponent, m_SheildRevoverRate); } \
+	FORCEINLINE static uint32 __PPO__m_SheildRevoverDelay() { return STRUCT_OFFSET(UHeathComponent, m_SheildRevoverDelay); }
+
+
 #define GEP_GAME_Source_GEP_GAME_Public_HeathComponent_h_10_PROLOG
 #define GEP_GAME_Source_GEP_GAME_Public_HeathComponent_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
