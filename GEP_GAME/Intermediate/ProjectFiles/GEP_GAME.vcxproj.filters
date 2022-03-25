@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GEP_GAME.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DD5E75B6-A811-4FE9-BD4F-8DD639CFC3E8}</UniqueIdentifier>
+      <UniqueIdentifier>{60E80955-3951-4665-927F-32E6D821D285}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GEP_GAME.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{2F1D165C-68E3-40E5-98F8-B85388AC8164}</UniqueIdentifier>
+      <UniqueIdentifier>{7B2D5146-28F2-40C7-BFCD-D5E599F98753}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GEP_GAME">
-      <UniqueIdentifier>{5E60377B-D318-4BB8-A79D-6E8E3DC8139C}</UniqueIdentifier>
+      <UniqueIdentifier>{F030F4D2-1D36-4BD9-B65F-973C1C84041D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GEP_GAME\GEP_GAME.Build.cs">
       <Filter>Source\GEP_GAME</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\GEP_GAME</Filter>
     </ClInclude>
     <Filter Include="Source\GEP_GAME\FP_FirstPerson">
-      <UniqueIdentifier>{ABE1A0EF-C5A4-4880-9B6F-B796A0661E5D}</UniqueIdentifier>
+      <UniqueIdentifier>{09254A72-7960-410A-B678-40DCE2DEB56A}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GEP_GAME\FP_FirstPerson\FP_FirstPerson.h">
       <Filter>Source\GEP_GAME\FP_FirstPerson</Filter>
@@ -69,14 +69,32 @@
       <Filter>Source\GEP_GAME\FP_FirstPerson</Filter>
     </ClInclude>
     <Filter Include="Source\GEP_GAME\Private">
-      <UniqueIdentifier>{C3C39D22-7C48-40FA-BE38-0D6F83A6D928}</UniqueIdentifier>
+      <UniqueIdentifier>{CAAAA462-7CC3-4C7A-9E38-EED02A877A66}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\GEP_GAME\Private\AIPatrol.cpp">
+      <Filter>Source\GEP_GAME\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GEP_GAME\Private\AIPatrolController.cpp">
+      <Filter>Source\GEP_GAME\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GEP_GAME\Private\AIPatrolPoint.cpp">
+      <Filter>Source\GEP_GAME\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\GEP_GAME\Private\HeathComponent.cpp">
       <Filter>Source\GEP_GAME\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GEP_GAME\Public">
-      <UniqueIdentifier>{B4592B02-41A3-4DF9-BB2B-8B441D6DC0EB}</UniqueIdentifier>
+      <UniqueIdentifier>{D22B6C73-E89F-4604-B03A-FDB143E662FD}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\GEP_GAME\Public\AIPatrol.h">
+      <Filter>Source\GEP_GAME\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GEP_GAME\Public\AIPatrolController.h">
+      <Filter>Source\GEP_GAME\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GEP_GAME\Public\AIPatrolPoint.h">
+      <Filter>Source\GEP_GAME\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\GEP_GAME\Public\HeathComponent.h">
       <Filter>Source\GEP_GAME\Public</Filter>
     </ClInclude>
