@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GEP_GAME.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{537BB7A2-F20A-4723-9E83-3D0B63E6BE3F}</UniqueIdentifier>
+      <UniqueIdentifier>{4933FD8B-A1A0-4029-80EF-9557B95AB091}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GEP_GAME.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B06E687B-ACA6-4D11-A004-BB71A193B0DF}</UniqueIdentifier>
+      <UniqueIdentifier>{34F439A8-CD28-42C7-8D96-DCAA817AB8C1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GEP_GAME">
-      <UniqueIdentifier>{6D62CC26-3CD0-4B6E-B278-1EC1926B827D}</UniqueIdentifier>
+      <UniqueIdentifier>{BBEDA531-F099-4AF3-BC2B-A246C22F3EC8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GEP_GAME\GEP_GAME.Build.cs">
       <Filter>Source\GEP_GAME</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\GEP_GAME</Filter>
     </ClInclude>
     <Filter Include="Source\GEP_GAME\FP_FirstPerson">
-      <UniqueIdentifier>{5C937E0D-8B0E-4FA2-AA21-DF791CD4FC9C}</UniqueIdentifier>
+      <UniqueIdentifier>{C8E03184-291E-43ED-A6EB-35D32D309F7B}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GEP_GAME\FP_FirstPerson\FP_FirstPerson.h">
       <Filter>Source\GEP_GAME\FP_FirstPerson</Filter>
@@ -69,13 +69,13 @@
       <Filter>Source\GEP_GAME\FP_FirstPerson</Filter>
     </ClInclude>
     <Filter Include="Source\GEP_GAME\Private">
-      <UniqueIdentifier>{49184174-9500-4630-AE1C-7B98377A06ED}</UniqueIdentifier>
+      <UniqueIdentifier>{EDAC1771-4A35-487D-B776-7CD27277A1A8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GEP_GAME\Private\HeathComponent.cpp">
       <Filter>Source\GEP_GAME\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GEP_GAME\Public">
-      <UniqueIdentifier>{3D4A1104-15E7-4004-90BD-4AC207E3C3AE}</UniqueIdentifier>
+      <UniqueIdentifier>{7B0D805C-9F9C-4086-BE27-84AA2AE7CEFC}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GEP_GAME\Public\HeathComponent.h">
       <Filter>Source\GEP_GAME\Public</Filter>

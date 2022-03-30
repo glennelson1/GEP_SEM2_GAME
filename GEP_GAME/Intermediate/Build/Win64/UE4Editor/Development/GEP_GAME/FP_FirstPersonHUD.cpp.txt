@@ -1,17 +1,17 @@
-C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Development\GEP_GAME\Definitions.GEP_GAME.h
-C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Source\GEP_GAME\FP_FirstPerson\FP_FirstPersonHUD.h
-C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
-C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
-C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
-C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
-C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
-C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Inc\GEP_GAME\FP_FirstPersonHUD.generated.h
-C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
-C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\Engine\Public\CanvasItem.h
-C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
-C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
-C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
-C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
-C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
-C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
-C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Canvas.generated.h
+C:\Users\glenn\Documents\- UNI\Game_Dev_sem2\Git\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Development\GEP_GAME\Definitions.GEP_GAME.h
+C:\Users\glenn\Documents\- UNI\Game_Dev_sem2\Git\GEP_SEM2_GAME\GEP_GAME\Source\GEP_GAME\FP_FirstPerson\FP_FirstPersonHUD.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Users\glenn\Documents\- UNI\Game_Dev_sem2\Git\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Inc\GEP_GAME\FP_FirstPersonHUD.generated.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Public\CanvasItem.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
+D:\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Canvas.generated.h
