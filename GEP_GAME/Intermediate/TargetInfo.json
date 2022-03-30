@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "GEP_GAME",
-			"Path": "C:\\Users\\glenn\\Documents\\- UNI\\Game_Dev_sem2\\Git\\GEP_SEM2_GAME\\GEP_GAME\\Source\\GEP_GAME.Target.cs",
+			"Path": "C:\\Users\\n012782k\\Documents\\GitHub\\GEP_SEM2_GAME\\GEP_GAME\\Source\\GEP_GAME.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "GEP_GAMEEditor",
-			"Path": "C:\\Users\\glenn\\Documents\\- UNI\\Game_Dev_sem2\\Git\\GEP_SEM2_GAME\\GEP_GAME\\Source\\GEP_GAMEEditor.Target.cs",
+			"Path": "C:\\Users\\n012782k\\Documents\\GitHub\\GEP_SEM2_GAME\\GEP_GAME\\Source\\GEP_GAMEEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
