@@ -1,5 +1,5 @@
-C:\Users\glenn\Documents\- UNI\Game_Dev_sem2\Git\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Development\GEP_GAME\Definitions.GEP_GAME.h
-D:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\glenn\Documents\- UNI\Game_Dev_sem2\Git\GEP_SEM2_GAME\GEP_GAME\Source\GEP_GAME/Public/HeathComponent.h
-C:\Users\glenn\Documents\- UNI\Game_Dev_sem2\Git\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Inc\GEP_GAME\HeathComponent.generated.h
+C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Development\GEP_GAME\Definitions.GEP_GAME.h
+C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Source\GEP_GAME/Public/HeathComponent.h
+C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Inc\GEP_GAME\HeathComponent.generated.h
