@@ -8,6 +8,9 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef GEP_GAME_PickUp_generated_h
 #error "PickUp.generated.h already included, missing '#pragma once' in PickUp.h"
 #endif
@@ -16,14 +19,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define GEP_GAME_Source_GEP_GAME_Public_PickUp_h_16_SPARSE_DATA
 #define GEP_GAME_Source_GEP_GAME_Public_PickUp_h_16_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execPickup); \
-	DECLARE_FUNCTION(execRotateActor);
+	DECLARE_FUNCTION(execOnPlayerEnterPickUp);
 
 
 #define GEP_GAME_Source_GEP_GAME_Public_PickUp_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execPickup); \
-	DECLARE_FUNCTION(execRotateActor);
+	DECLARE_FUNCTION(execOnPlayerEnterPickUp);
 
 
 #define GEP_GAME_Source_GEP_GAME_Public_PickUp_h_16_INCLASS_NO_PURE_DECLS \

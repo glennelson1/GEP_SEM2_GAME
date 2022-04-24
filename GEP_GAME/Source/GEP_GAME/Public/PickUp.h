@@ -5,7 +5,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Camera/CameraComponent.h"
+
 #include "PickUp.generated.h"
 
 
@@ -21,25 +21,18 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 
+    UPROPERTY(EditAnywhere)
+	USceneComponent* m_PickUpRoot;
+
+	
 	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* MyMesh;
+	UStaticMeshComponent* m_MyMesh;
 
 	UPROPERTY(EditAnywhere)
-	USceneComponent* HoldingComp;
+	UShapeComponent* m_PickUpBox;
 
 	UFUNCTION()
-	void RotateActor();
-
-	UFUNCTION()
-	void Pickup();
-
-	bool mHolding;
-	bool mGravity;
-
-	FRotator ControlRotation;
-	ACharacter* MyCharacter;
-	UCameraComponent* PlayerCamera;
-	FVector ForwardVector;
+	void OnPlayerEnterPickUp(UPrimitiveComponent* overlappedComp, AActor* otherActor, UPrimitiveComponent* otherComp, int32 otherbodyIndex, bool m_fromsweep, const FHitResult& sweepResult);
 	
 protected:
 	// Called when the game starts or when spawned

@@ -31,18 +31,7 @@ protected:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Health");
 	float m_MaxHealth;
 
-	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Shield");
-	float m_CurrentShield;
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Shield");
-	float m_MaxShield;
-	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Shield");
-	bool m_CanRegenSheild;
-	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Shield");
-	float m_SheildRecoverDelayTimer;
-	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Shield")
-	float m_SheildRevoverRate;
-	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Shield");
-	float m_SheildRevoverDelay;
+	
 
 	UFUNCTION()
 	void DamgeTaken(AActor* damagedAcator, float damage, const UDamageType* damageType, AController* m_instigator, AActor* causer);
