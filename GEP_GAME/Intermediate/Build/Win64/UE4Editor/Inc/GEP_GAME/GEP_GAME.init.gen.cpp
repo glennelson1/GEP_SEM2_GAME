@@ -25,7 +25,7 @@ void EmptyLinkFunctionForGeneratedCodeGEP_GAME_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x79AE51CE,
+				0xBD394B55,
 				0xDEC460C2,
 				METADATA_PARAMS(nullptr, 0)
 			};

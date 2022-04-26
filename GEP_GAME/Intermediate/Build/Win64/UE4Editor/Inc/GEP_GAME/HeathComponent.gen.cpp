@@ -153,31 +153,6 @@ void EmptyLinkFunctionForGeneratedCodeHeathComponent() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_MaxHealth_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_MaxHealth;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_CurrentShield_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_CurrentShield;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_MaxShield_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_MaxShield;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_CanRegenSheild_MetaData[];
-#endif
-		static void NewProp_m_CanRegenSheild_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_m_CanRegenSheild;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_SheildRecoverDelayTimer_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_SheildRecoverDelayTimer;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_SheildRevoverRate_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_SheildRevoverRate;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_SheildRevoverDelay_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_SheildRevoverDelay;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -218,62 +193,10 @@ void EmptyLinkFunctionForGeneratedCodeHeathComponent() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_MaxHealth = { "m_MaxHealth", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UHeathComponent, m_MaxHealth), METADATA_PARAMS(Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_MaxHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_MaxHealth_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_CurrentShield_MetaData[] = {
-		{ "Category", "Shield" },
-		{ "ModuleRelativePath", "Public/HeathComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_CurrentShield = { "m_CurrentShield", nullptr, (EPropertyFlags)0x0020080000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UHeathComponent, m_CurrentShield), METADATA_PARAMS(Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_CurrentShield_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_CurrentShield_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_MaxShield_MetaData[] = {
-		{ "Category", "Shield" },
-		{ "ModuleRelativePath", "Public/HeathComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_MaxShield = { "m_MaxShield", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UHeathComponent, m_MaxShield), METADATA_PARAMS(Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_MaxShield_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_MaxShield_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_CanRegenSheild_MetaData[] = {
-		{ "Category", "Shield" },
-		{ "ModuleRelativePath", "Public/HeathComponent.h" },
-	};
-#endif
-	void Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_CanRegenSheild_SetBit(void* Obj)
-	{
-		((UHeathComponent*)Obj)->m_CanRegenSheild = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_CanRegenSheild = { "m_CanRegenSheild", nullptr, (EPropertyFlags)0x0020080000020015, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UHeathComponent), &Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_CanRegenSheild_SetBit, METADATA_PARAMS(Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_CanRegenSheild_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_CanRegenSheild_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_SheildRecoverDelayTimer_MetaData[] = {
-		{ "Category", "Shield" },
-		{ "ModuleRelativePath", "Public/HeathComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_SheildRecoverDelayTimer = { "m_SheildRecoverDelayTimer", nullptr, (EPropertyFlags)0x0020080000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UHeathComponent, m_SheildRecoverDelayTimer), METADATA_PARAMS(Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_SheildRecoverDelayTimer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_SheildRecoverDelayTimer_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_SheildRevoverRate_MetaData[] = {
-		{ "Category", "Shield" },
-		{ "ModuleRelativePath", "Public/HeathComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_SheildRevoverRate = { "m_SheildRevoverRate", nullptr, (EPropertyFlags)0x0020080000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UHeathComponent, m_SheildRevoverRate), METADATA_PARAMS(Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_SheildRevoverRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_SheildRevoverRate_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_SheildRevoverDelay_MetaData[] = {
-		{ "Category", "Shield" },
-		{ "ModuleRelativePath", "Public/HeathComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_SheildRevoverDelay = { "m_SheildRevoverDelay", nullptr, (EPropertyFlags)0x0020080000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UHeathComponent, m_SheildRevoverDelay), METADATA_PARAMS(Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_SheildRevoverDelay_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_SheildRevoverDelay_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UHeathComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHeathComponent_Statics::NewProp_onComponentDead,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_CurrentHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_MaxHealth,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_CurrentShield,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_MaxShield,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_CanRegenSheild,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_SheildRecoverDelayTimer,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_SheildRevoverRate,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHeathComponent_Statics::NewProp_m_SheildRevoverDelay,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UHeathComponent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UHeathComponent>::IsAbstract,
@@ -302,7 +225,7 @@ void EmptyLinkFunctionForGeneratedCodeHeathComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UHeathComponent, 980144740);
+	IMPLEMENT_CLASS(UHeathComponent, 3915596287);
 	template<> GEP_GAME_API UClass* StaticClass<UHeathComponent>()
 	{
 		return UHeathComponent::StaticClass();

@@ -6,20 +6,19 @@
 // Sets default values for this component's properties
 UMyActorComponent_Health::UMyActorComponent_Health()
 {
-	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
-	// off to improve performance if you don't need them.
+	
 	PrimaryComponentTick.bCanEverTick = true;
 
-	// ...
+	m_Health = m_DefaultHealth;
 }
 
 
-// Called when the game starts
+
 void UMyActorComponent_Health::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
+	
 	
 }
 
@@ -30,5 +29,19 @@ void UMyActorComponent_Health::TickComponent(float DeltaTime, ELevelTick TickTyp
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+}
+
+float UMyActorComponent_Health::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent,
+	AController* EventInstigator, AActor* DamageCauser)
+{
+	m_Health -= DamageAmount;
+	UE_LOG(LogTemp, Warning, TEXT("Health: %f"), m_Health);
+
+	if(m_Health <= 0 )
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Healt depleted"));
+	}
+
+	return DamageAmount;
 }
 

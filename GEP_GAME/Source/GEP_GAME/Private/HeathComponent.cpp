@@ -27,10 +27,6 @@ void UHeathComponent::BeginPlay()
 void UHeathComponent::DamgeTaken(AActor* damagedAcator, float damage, const UDamageType* damageType, AController* instigator, AActor* causer)
 {
 	
-	
-
-	
-
 	if(m_CurrentHealth <= 0.f){onComponentDead.Broadcast(instigator);}
 }
 

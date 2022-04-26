@@ -84,13 +84,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHeathComponent); \
 
 #define GEP_GAME_Source_GEP_GAME_Public_HeathComponent_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__m_CurrentHealth() { return STRUCT_OFFSET(UHeathComponent, m_CurrentHealth); } \
-	FORCEINLINE static uint32 __PPO__m_MaxHealth() { return STRUCT_OFFSET(UHeathComponent, m_MaxHealth); } \
-	FORCEINLINE static uint32 __PPO__m_CurrentShield() { return STRUCT_OFFSET(UHeathComponent, m_CurrentShield); } \
-	FORCEINLINE static uint32 __PPO__m_MaxShield() { return STRUCT_OFFSET(UHeathComponent, m_MaxShield); } \
-	FORCEINLINE static uint32 __PPO__m_CanRegenSheild() { return STRUCT_OFFSET(UHeathComponent, m_CanRegenSheild); } \
-	FORCEINLINE static uint32 __PPO__m_SheildRecoverDelayTimer() { return STRUCT_OFFSET(UHeathComponent, m_SheildRecoverDelayTimer); } \
-	FORCEINLINE static uint32 __PPO__m_SheildRevoverRate() { return STRUCT_OFFSET(UHeathComponent, m_SheildRevoverRate); } \
-	FORCEINLINE static uint32 __PPO__m_SheildRevoverDelay() { return STRUCT_OFFSET(UHeathComponent, m_SheildRevoverDelay); }
+	FORCEINLINE static uint32 __PPO__m_MaxHealth() { return STRUCT_OFFSET(UHeathComponent, m_MaxHealth); }
 
 
 #define GEP_GAME_Source_GEP_GAME_Public_HeathComponent_h_10_PROLOG
