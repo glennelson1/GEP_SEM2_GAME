@@ -8,35 +8,31 @@
 
 #include "PickUp.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FColloectedSignature, class APickUp*, delegateInstigator);
 
+class USphereComponent;
 
-UCLASS()
+UCLASS(Abstract)
 class GEP_GAME_API APickUp : public AActor
 {
 	GENERATED_BODY()
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	USphereComponent* m_Collider;
 	
 public:	
 	// Sets default values for this actor's properties
 	APickUp();
 
-	virtual void Tick(float DeltaTime) override;
+	UPROPERTY(BlueprintAssignable)
+	FColloectedSignature OnCollected;
 
-    UPROPERTY(EditAnywhere)
-	USceneComponent* m_PickUpRoot;
-
-	
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* m_MyMesh;
-
-	UPROPERTY(EditAnywhere)
-	UShapeComponent* m_PickUpBox;
-
-	UFUNCTION()
-	void OnPlayerEnterPickUp(UPrimitiveComponent* overlappedComp, AActor* otherActor, UPrimitiveComponent* otherComp, int32 otherbodyIndex, bool m_fromsweep, const FHitResult& sweepResult);
-	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	UFUNCTION(BlueprintCallable)
+	void BroadCastOnCollected();
 	
 	
 

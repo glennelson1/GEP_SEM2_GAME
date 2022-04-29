@@ -1,0 +1,9 @@
+C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Development\GEP_GAME\Definitions.GEP_GAME.h
+C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Source\GEP_GAME/Public/GameRuleManager_Collectable.h
+C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Source\GEP_GAME\Public\CollectablePickUp.h
+C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Inc\GEP_GAME\CollectablePickUp.generated.h
+C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Source\GEP_GAME\Public\GameRuleManager.h
+C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Inc\GEP_GAME\GameRuleManager.generated.h
+C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Inc\GEP_GAME\GameRuleManager_Collectable.generated.h

@@ -13,116 +13,79 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodePickUp() {}
 // Cross Module References
+	GEP_GAME_API UFunction* Z_Construct_UDelegateFunction_GEP_GAME_ColloectedSignature__DelegateSignature();
+	UPackage* Z_Construct_UPackage__Script_GEP_GAME();
 	GEP_GAME_API UClass* Z_Construct_UClass_APickUp_NoRegister();
 	GEP_GAME_API UClass* Z_Construct_UClass_APickUp();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
-	UPackage* Z_Construct_UPackage__Script_GEP_GAME();
-	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
-	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
-	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UShapeComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
-	DEFINE_FUNCTION(APickUp::execOnPlayerEnterPickUp)
+	struct Z_Construct_UDelegateFunction_GEP_GAME_ColloectedSignature__DelegateSignature_Statics
 	{
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_overlappedComp);
-		P_GET_OBJECT(AActor,Z_Param_otherActor);
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_otherComp);
-		P_GET_PROPERTY(FIntProperty,Z_Param_otherbodyIndex);
-		P_GET_UBOOL(Z_Param_m_fromsweep);
-		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_sweepResult);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->OnPlayerEnterPickUp(Z_Param_overlappedComp,Z_Param_otherActor,Z_Param_otherComp,Z_Param_otherbodyIndex,Z_Param_m_fromsweep,Z_Param_Out_sweepResult);
-		P_NATIVE_END;
-	}
-	void APickUp::StaticRegisterNativesAPickUp()
-	{
-		UClass* Class = APickUp::StaticClass();
-		static const FNameNativePtrPair Funcs[] = {
-			{ "OnPlayerEnterPickUp", &APickUp::execOnPlayerEnterPickUp },
-		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics
-	{
-		struct PickUp_eventOnPlayerEnterPickUp_Parms
+		struct _Script_GEP_GAME_eventColloectedSignature_Parms
 		{
-			UPrimitiveComponent* overlappedComp;
-			AActor* otherActor;
-			UPrimitiveComponent* otherComp;
-			int32 otherbodyIndex;
-			bool m_fromsweep;
-			FHitResult sweepResult;
+			APickUp* delegateInstigator;
 		};
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_overlappedComp_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_overlappedComp;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_otherActor;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_otherComp_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_otherComp;
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_otherbodyIndex;
-		static void NewProp_m_fromsweep_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_m_fromsweep;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_sweepResult_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_sweepResult;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_delegateInstigator;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_overlappedComp_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_overlappedComp = { "overlappedComp", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PickUp_eventOnPlayerEnterPickUp_Parms, overlappedComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_overlappedComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_overlappedComp_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_otherActor = { "otherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PickUp_eventOnPlayerEnterPickUp_Parms, otherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_otherComp_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_otherComp = { "otherComp", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PickUp_eventOnPlayerEnterPickUp_Parms, otherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_otherComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_otherComp_MetaData)) };
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_otherbodyIndex = { "otherbodyIndex", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PickUp_eventOnPlayerEnterPickUp_Parms, otherbodyIndex), METADATA_PARAMS(nullptr, 0) };
-	void Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_m_fromsweep_SetBit(void* Obj)
-	{
-		((PickUp_eventOnPlayerEnterPickUp_Parms*)Obj)->m_fromsweep = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_m_fromsweep = { "m_fromsweep", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(PickUp_eventOnPlayerEnterPickUp_Parms), &Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_m_fromsweep_SetBit, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_sweepResult_MetaData[] = {
-		{ "NativeConst", "" },
-	};
-#endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_sweepResult = { "sweepResult", nullptr, (EPropertyFlags)0x0010008008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PickUp_eventOnPlayerEnterPickUp_Parms, sweepResult), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_sweepResult_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_sweepResult_MetaData)) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_overlappedComp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_otherActor,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_otherComp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_otherbodyIndex,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_m_fromsweep,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::NewProp_sweepResult,
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_GEP_GAME_ColloectedSignature__DelegateSignature_Statics::NewProp_delegateInstigator = { "delegateInstigator", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_GEP_GAME_eventColloectedSignature_Parms, delegateInstigator), Z_Construct_UClass_APickUp_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_GEP_GAME_ColloectedSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_GEP_GAME_ColloectedSignature__DelegateSignature_Statics::NewProp_delegateInstigator,
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::Function_MetaDataParams[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_GEP_GAME_ColloectedSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/PickUp.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APickUp, nullptr, "OnPlayerEnterPickUp", nullptr, nullptr, sizeof(PickUp_eventOnPlayerEnterPickUp_Parms), Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp()
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_GEP_GAME_ColloectedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_GEP_GAME, nullptr, "ColloectedSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_GEP_GAME_eventColloectedSignature_Parms), Z_Construct_UDelegateFunction_GEP_GAME_ColloectedSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_GEP_GAME_ColloectedSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_GEP_GAME_ColloectedSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_GEP_GAME_ColloectedSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_GEP_GAME_ColloectedSignature__DelegateSignature()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp_Statics::FuncParams);
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_GEP_GAME_ColloectedSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	DEFINE_FUNCTION(APickUp::execBroadCastOnCollected)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->BroadCastOnCollected();
+		P_NATIVE_END;
+	}
+	void APickUp::StaticRegisterNativesAPickUp()
+	{
+		UClass* Class = APickUp::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "BroadCastOnCollected", &APickUp::execBroadCastOnCollected },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_APickUp_BroadCastOnCollected_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APickUp_BroadCastOnCollected_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/PickUp.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APickUp_BroadCastOnCollected_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APickUp, nullptr, "BroadCastOnCollected", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APickUp_BroadCastOnCollected_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APickUp_BroadCastOnCollected_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APickUp_BroadCastOnCollected()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APickUp_BroadCastOnCollected_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -138,17 +101,13 @@ void EmptyLinkFunctionForGeneratedCodePickUp() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_PickUpRoot_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_Collider_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_PickUpRoot;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_Collider;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_MyMesh_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnCollected_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_MyMesh;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_PickUpBox_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_PickUpBox;
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnCollected;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -158,7 +117,7 @@ void EmptyLinkFunctionForGeneratedCodePickUp() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_GEP_GAME,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APickUp_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_APickUp_OnPlayerEnterPickUp, "OnPlayerEnterPickUp" }, // 4215183894
+		{ &Z_Construct_UFunction_APickUp_BroadCastOnCollected, "BroadCastOnCollected" }, // 911260551
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickUp_Statics::Class_MetaDataParams[] = {
@@ -167,33 +126,23 @@ void EmptyLinkFunctionForGeneratedCodePickUp() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickUp_Statics::NewProp_m_PickUpRoot_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickUp_Statics::NewProp_m_Collider_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
 		{ "Category", "PickUp" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/PickUp.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickUp_Statics::NewProp_m_PickUpRoot = { "m_PickUpRoot", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickUp, m_PickUpRoot), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickUp_Statics::NewProp_m_PickUpRoot_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APickUp_Statics::NewProp_m_PickUpRoot_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickUp_Statics::NewProp_m_Collider = { "m_Collider", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickUp, m_Collider), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickUp_Statics::NewProp_m_Collider_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APickUp_Statics::NewProp_m_Collider_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickUp_Statics::NewProp_m_MyMesh_MetaData[] = {
-		{ "Category", "PickUp" },
-		{ "EditInline", "true" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickUp_Statics::NewProp_OnCollected_MetaData[] = {
 		{ "ModuleRelativePath", "Public/PickUp.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickUp_Statics::NewProp_m_MyMesh = { "m_MyMesh", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickUp, m_MyMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickUp_Statics::NewProp_m_MyMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APickUp_Statics::NewProp_m_MyMesh_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickUp_Statics::NewProp_m_PickUpBox_MetaData[] = {
-		{ "Category", "PickUp" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/PickUp.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickUp_Statics::NewProp_m_PickUpBox = { "m_PickUpBox", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickUp, m_PickUpBox), Z_Construct_UClass_UShapeComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickUp_Statics::NewProp_m_PickUpBox_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APickUp_Statics::NewProp_m_PickUpBox_MetaData)) };
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_APickUp_Statics::NewProp_OnCollected = { "OnCollected", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickUp, OnCollected), Z_Construct_UDelegateFunction_GEP_GAME_ColloectedSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_APickUp_Statics::NewProp_OnCollected_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APickUp_Statics::NewProp_OnCollected_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APickUp_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickUp_Statics::NewProp_m_PickUpRoot,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickUp_Statics::NewProp_m_MyMesh,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickUp_Statics::NewProp_m_PickUpBox,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickUp_Statics::NewProp_m_Collider,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickUp_Statics::NewProp_OnCollected,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APickUp_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APickUp>::IsAbstract,
@@ -210,7 +159,7 @@ void EmptyLinkFunctionForGeneratedCodePickUp() {}
 		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_APickUp_Statics::PropPointers),
 		0,
-		0x009000A4u,
+		0x009000A5u,
 		METADATA_PARAMS(Z_Construct_UClass_APickUp_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_APickUp_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_APickUp()
@@ -222,7 +171,7 @@ void EmptyLinkFunctionForGeneratedCodePickUp() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickUp, 1794241322);
+	IMPLEMENT_CLASS(APickUp, 1424344461);
 	template<> GEP_GAME_API UClass* StaticClass<APickUp>()
 	{
 		return APickUp::StaticClass();

@@ -2,20 +2,16 @@
 
 
 #include "PickUp.h"
+
+#include "Components/SphereComponent.h"
 #include "GameFramework/Character.h"
 
 
 // Sets default values
 APickUp::APickUp()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-
-	m_PickUpRoot = CreateDefaultSubobject<USceneComponent>(TEXT("PICKUPROOT"));
-	RootComponent = m_PickUpRoot;
-	
-	m_MyMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MyMesh"));
-	m_MyMesh->AttachToComponent(m_PickUpRoot, FAttachmentTransformRules::SnapToTargetNotIncludingScale);
+	m_Collider = CreateDefaultSubobject<USphereComponent>(TEXT("Collider"));
+	RootComponent = m_Collider;
 
 
 	
@@ -32,16 +28,10 @@ void APickUp::BeginPlay()
 	
 }
 
-// Called every frame
-void APickUp::Tick(float DeltaTime)
+void APickUp::BroadCastOnCollected()
 {
-	Super::Tick(DeltaTime);
-	
-
-}
-
-
-void APickUp::OnPlayerEnterPickUp(UPrimitiveComponent* overlappedComp, AActor* otherActor,UPrimitiveComponent* otherComp, int32 otherbodyIndex, bool m_fromsweep, const FHitResult& sweepResult)
-{
+	OnCollected.Broadcast(this);
 	Destroy();
 }
+
+

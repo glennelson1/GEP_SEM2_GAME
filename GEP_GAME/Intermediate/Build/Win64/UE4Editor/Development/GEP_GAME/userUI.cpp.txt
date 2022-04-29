@@ -1,5 +1,5 @@
-C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Development\GEP_GAME\Definitions.GEP_GAME.h
-C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Source\GEP_GAME\Public\userUI.h
+C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Development\GEP_GAME\Definitions.GEP_GAME.h
+C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Source\GEP_GAME\Public\userUI.h
 C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -99,4 +99,4 @@ C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath
 C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
-C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Inc\GEP_GAME\userUI.generated.h
+C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Inc\GEP_GAME\userUI.generated.h

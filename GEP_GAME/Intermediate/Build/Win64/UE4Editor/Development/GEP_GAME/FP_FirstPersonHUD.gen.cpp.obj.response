@@ -31,7 +31,7 @@
 /wd4244
 /wd4838
 /I .
-/I C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Source\GEP_GAME\Private
+/I C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Source\GEP_GAME\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -231,9 +231,9 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Inc\GEP_GAME
-/I C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Source
-/I C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Source\GEP_GAME\Public
+/I C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Inc\GEP_GAME
+/I C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Source
+/I C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Source\GEP_GAME\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -263,12 +263,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\GEP_GAMEEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\GEP_GAMEEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\GEP_GAMEEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Inc\GEP_GAME\FP_FirstPersonHUD.gen.cpp"
-/FI"C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Development\GEP_GAME\Definitions.GEP_GAME.h"
-/Fo"C:\Users\n012782k.STUDENT.002\Documents\GitHub\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Development\GEP_GAME\FP_FirstPersonHUD.gen.cpp.obj"
+/FI"C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\GEP_GAMEEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\GEP_GAMEEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\GEP_GAMEEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Inc\GEP_GAME\FP_FirstPersonHUD.gen.cpp"
+/FI"C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Development\GEP_GAME\Definitions.GEP_GAME.h"
+/Fo"C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4Editor\Development\GEP_GAME\FP_FirstPersonHUD.gen.cpp.obj"
 /TP
 /GR-
 /W4

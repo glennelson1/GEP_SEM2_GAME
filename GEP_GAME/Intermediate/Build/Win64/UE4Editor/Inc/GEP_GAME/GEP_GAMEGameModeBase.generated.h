@@ -8,20 +8,29 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AGameRuleManager;
 #ifdef GEP_GAME_GEP_GAMEGameModeBase_generated_h
 #error "GEP_GAMEGameModeBase.generated.h already included, missing '#pragma once' in GEP_GAMEGameModeBase.h"
 #endif
 #define GEP_GAME_GEP_GAMEGameModeBase_generated_h
 
 #define GEP_GAME_Source_GEP_GAME_GEP_GAMEGameModeBase_h_15_SPARSE_DATA
-#define GEP_GAME_Source_GEP_GAME_GEP_GAMEGameModeBase_h_15_RPC_WRAPPERS
-#define GEP_GAME_Source_GEP_GAME_GEP_GAMEGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define GEP_GAME_Source_GEP_GAME_GEP_GAMEGameModeBase_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHandleGameRuleSuccess);
+
+
+#define GEP_GAME_Source_GEP_GAME_GEP_GAMEGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHandleGameRuleSuccess);
+
+
 #define GEP_GAME_Source_GEP_GAME_GEP_GAMEGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGEP_GAMEGameModeBase(); \
 	friend struct Z_Construct_UClass_AGEP_GAMEGameModeBase_Statics; \
 public: \
-	DECLARE_CLASS(AGEP_GAMEGameModeBase, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/GEP_GAME"), NO_API) \
+	DECLARE_CLASS(AGEP_GAMEGameModeBase, AGameMode, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/GEP_GAME"), NO_API) \
 	DECLARE_SERIALIZER(AGEP_GAMEGameModeBase)
 
 
@@ -30,7 +39,7 @@ private: \
 	static void StaticRegisterNativesAGEP_GAMEGameModeBase(); \
 	friend struct Z_Construct_UClass_AGEP_GAMEGameModeBase_Statics; \
 public: \
-	DECLARE_CLASS(AGEP_GAMEGameModeBase, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/GEP_GAME"), NO_API) \
+	DECLARE_CLASS(AGEP_GAMEGameModeBase, AGameMode, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/GEP_GAME"), NO_API) \
 	DECLARE_SERIALIZER(AGEP_GAMEGameModeBase)
 
 
@@ -60,7 +69,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGEP_GAMEGameModeBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGEP_GAMEGameModeBase)
 
 
-#define GEP_GAME_Source_GEP_GAME_GEP_GAMEGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
+#define GEP_GAME_Source_GEP_GAME_GEP_GAMEGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__m_GameRuleManagers() { return STRUCT_OFFSET(AGEP_GAMEGameModeBase, m_GameRuleManagers); }
+
+
 #define GEP_GAME_Source_GEP_GAME_GEP_GAMEGameModeBase_h_12_PROLOG
 #define GEP_GAME_Source_GEP_GAME_GEP_GAMEGameModeBase_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

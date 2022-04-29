@@ -8,42 +8,214 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GEP_GAME.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GEP_GAME.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-GEP_GAME.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-GEP_GAME.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/-GameAssets/BP_FPSCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/-GameAssets/BP_FPSCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/-GameAssets/BP_MyGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/-GameAssets/BP_MyGameMode.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/-GameAssets/BP_PickUpAction.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/-GameAssets/BP_PickUpAction.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/-GameAssets/Pickup.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/-Levels/MainLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/-Levels/MainLevel.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/-Levels/Menu.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/-Levels/Menu.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/-Levels/VictoryScreen.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/-Levels/VictoryScreen.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/Guard_Enemy.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/Guard_Enemy.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Animations/FirstPersonFire_Montage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Animations/FirstPerson_Fire.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Animations/FirstPerson_Idle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Animations/FirstPerson_JumpEnd.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Animations/FirstPerson_JumpLoop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Animations/FirstPerson_JumpStart.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Animations/FirstPerson_Run.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Character/Materials/M_UE4Man_Body.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Character/Mesh/FirstPersonAnimBlueprint_Copy.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/FPWeapon/Materials/M_FPGun.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/FPWeapon/Textures/T_FPGun_M.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/FPWeapon/Textures/T_FPGun_N.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Meshes/BaseMaterial.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Meshes/CubeMaterialOverride.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Meshes/FirstPersonProjectileMaterial.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Textures/FirstPersonCrosshair.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/FirstPersonOverview.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Meshes/Bump_StaticMesh.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Meshes/LeftArm_StaticMesh.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Meshes/Linear_Stair_StaticMesh.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Meshes/RampMaterial.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Meshes/Ramp_StaticMesh.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Meshes/RightArm_StaticMesh.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonBP/ThirdPersonOverview.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/GEP_GAMEModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/GEP_GAMEModuleRules.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/GEP_GAMEModuleRulesManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/GEP_GAMEModuleRulesManifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/DebugGame/Core/SharedPCH.Core.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/DebugGame/Core/SharedPCH.Core.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/DebugGame/CoreUObject/SharedPCH.CoreUObject.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/DebugGame/CoreUObject/SharedPCH.CoreUObject.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/DebugGame/Engine/SharedPCH.Engine.Exceptions.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/DebugGame/Engine/SharedPCH.Engine.Exceptions.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/DebugGame/Engine/SharedPCH.Engine.NonOptimized.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/DebugGame/Engine/SharedPCH.Engine.NonOptimized.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/DebugGame/Engine/SharedPCH.Engine.RTTI.Exceptions.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/DebugGame/Engine/SharedPCH.Engine.RTTI.Exceptions.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/DebugGame/Engine/SharedPCH.Engine.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/DebugGame/Engine/SharedPCH.Engine.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/DebugGame/Slate/SharedPCH.Slate.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/DebugGame/Slate/SharedPCH.Slate.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Development/Core/SharedPCH.Core.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Development/Core/SharedPCH.Core.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Development/CoreUObject/SharedPCH.CoreUObject.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Development/CoreUObject/SharedPCH.CoreUObject.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Development/Engine/SharedPCH.Engine.Exceptions.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Development/Engine/SharedPCH.Engine.Exceptions.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Development/Engine/SharedPCH.Engine.NonOptimized.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Development/Engine/SharedPCH.Engine.NonOptimized.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Development/Engine/SharedPCH.Engine.RTTI.Exceptions.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Development/Engine/SharedPCH.Engine.RTTI.Exceptions.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Development/Engine/SharedPCH.Engine.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Development/Engine/SharedPCH.Engine.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Development/Slate/SharedPCH.Slate.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Development/Slate/SharedPCH.Slate.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Shipping/Core/SharedPCH.Core.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Shipping/Core/SharedPCH.Core.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Shipping/CoreUObject/SharedPCH.CoreUObject.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Shipping/CoreUObject/SharedPCH.CoreUObject.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Shipping/Engine/SharedPCH.Engine.Exceptions.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Shipping/Engine/SharedPCH.Engine.Exceptions.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Shipping/Engine/SharedPCH.Engine.NonOptimized.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Shipping/Engine/SharedPCH.Engine.NonOptimized.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Shipping/Engine/SharedPCH.Engine.RTTI.Exceptions.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Shipping/Engine/SharedPCH.Engine.RTTI.Exceptions.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Shipping/Engine/SharedPCH.Engine.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Shipping/Engine/SharedPCH.Engine.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Shipping/Slate/SharedPCH.Slate.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAME/Shipping/Slate/SharedPCH.Slate.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/ActionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/DependencyCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/GEP_GAMEEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/GEP_GAMEEditor.uhtmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/HotReload.state" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/HotReload.state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Metadata-HotReload.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Metadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Metadata.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4/DebugGame/GEP_GAME/Definitions.GEP_GAME.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4/DebugGame/GEP_GAME/Definitions.GEP_GAME.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4/Development/GEP_GAME/Definitions.GEP_GAME.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4/Development/GEP_GAME/Definitions.GEP_GAME.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4/Shipping/GEP_GAME/Definitions.GEP_GAME.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4/Shipping/GEP_GAME/Definitions.GEP_GAME.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/ActionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FPSCharacter.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FPSCharacter.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FPSCharacter.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FPSCharacter.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FPSCharacter.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FPSCharacter.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FPSCharacter.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FPSCharacter.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonCharacter.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonCharacter.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonCharacter.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonCharacter.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonCharacter.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonCharacter.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonCharacter.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonCharacter.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonCharacter.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonCharacter.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonCharacter.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonCharacter.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonGameMode.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonGameMode.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonGameMode.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonGameMode.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonGameMode.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonGameMode.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonGameMode.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonGameMode.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonGameMode.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonGameMode.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonGameMode.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonGameMode.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonHUD.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonHUD.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonHUD.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonHUD.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonHUD.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonHUD.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonHUD.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonHUD.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonHUD.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonHUD.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonHUD.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FP_FirstPersonHUD.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAME.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAME.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAME.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAME.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAME.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAME.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAME.init.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAME.init.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAME.init.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAME.init.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAME.init.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAME.init.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAMEGameModeBase.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAMEGameModeBase.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAMEGameModeBase.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAMEGameModeBase.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAMEGameModeBase.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAMEGameModeBase.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAMEGameModeBase.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAMEGameModeBase.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAMEGameModeBase.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAMEGameModeBase.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAMEGameModeBase.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/GEP_GAMEGameModeBase.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/MyCharacter.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/MyCharacter.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/MyCharacter.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/MyCharacter.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/MyCharacter.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/MyCharacter.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/MyCharacter.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/MyCharacter.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/PickUp.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/PickUp.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/PickUp.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/PickUp.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/PickUp.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/PickUp.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/PickUp.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/PickUp.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/PickUpAction.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/PickUpAction.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/PickUpAction.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/PickUpAction.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/PickUpAction.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/PickUpAction.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/PickUpAction.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/PickUpAction.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/UE4Editor-GEP_GAME.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/UE4Editor-GEP_GAME.dll.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/UE4Editor-GEP_GAME.dll.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/UE4Editor-GEP_GAME.dll.response.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/UE4Editor-GEP_GAME.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/UE4Editor-GEP_GAME.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/UE4Editor-GEP_GAME.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/UE4Editor-GEP_GAME.lib.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/UE4Editor-GEP_GAME.lib.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/UE4Editor-GEP_GAME.lib.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/UE4Editor-GEP_GAME.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/UE4Editor-GEP_GAME.suppressed.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/userUI.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/userUI.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/userUI.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/userUI.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/userUI.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/userUI.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/userUI.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/userUI.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/GEP_GAME/GEP_GAME.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/GEP_GAME/GEP_GAME.init.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/GEP_GAME/GEP_GAMEGameModeBase.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/GEP_GAME/GEP_GAMEGameModeBase.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/GEP_GAME/GEP_GAMEGameModeBase.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/GEP_GAME/GEP_GAMEGameModeBase.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/GEP_GAME/PickUp.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/GEP_GAME/PickUp.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/GEP_GAME/PickUp.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/GEP_GAME/PickUp.generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/GEP_GAME/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/GEP_GAME/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Engine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/GEP_GAME.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/GEP_GAME.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/GEP_GAME.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/GEP_GAME.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/GEP_GAME.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/GEP_GAME.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE4.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE4.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE4.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE4.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/TargetInfo.Game.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/TargetInfo.Game.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/TargetInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/TargetInfo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-A8EE940B4678D7C6DB008E90855D6CE0/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-EE13638F4DFCB4C6557143A0B9C0675A/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/-Levels/MainLevel_Auto1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/-Levels/MainLevel_Auto1.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/-Levels/MainLevel_Auto2.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/-Levels/MainLevel_Auto2.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.28-23.25.04.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.28-23.26.04.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.28-23.27.19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.28-23.27.24.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.28-23.36.02.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.28-23.38.48.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.29-00.00.32.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.29-18.12.31.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.29-18.17.18.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/GEP_GAME.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GEP_GAME/Private/FPSCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GEP_GAME/Private/FPSCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GEP_GAME/Private/PickUpAction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GEP_GAME/Private/PickUpAction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GEP_GAME/GEP_GAMEGameModeBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GEP_GAME/GEP_GAMEGameModeBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GEP_GAME/GEP_GAMEGameModeBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GEP_GAME/GEP_GAMEGameModeBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GEP_GAME/Private/PickUp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GEP_GAME/Private/PickUp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GEP_GAME/Public/PickUp.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GEP_GAME/Public/PickUp.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/GEP_GAME/GameRuleManager_Collectable.generated.h" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="26yuwDudU5fU9wkLUHEmQ7TQMYx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -112,6 +284,7 @@
       <workItem from="1651190253377" duration="118000" />
       <workItem from="1651255983934" duration="252000" />
       <workItem from="1651256370020" duration="1238000" />
+      <workItem from="1651263143733" duration="1418000" />
     </task>
     <servers />
   </component>
