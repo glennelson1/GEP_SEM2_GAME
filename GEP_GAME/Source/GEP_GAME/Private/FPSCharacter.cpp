@@ -3,6 +3,7 @@
 
 #include "FPSCharacter.h"
 #include "DrawDebugHelpers.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AFPSCharacter::AFPSCharacter()
@@ -31,7 +32,7 @@ AFPSCharacter::AFPSCharacter()
 	
 	//FollowCamera->bUsePawnControlRotation = true;
 
-	// headloc = TEXT("head")
+
 	Holdingloc = CreateDefaultSubobject<USceneComponent>(TEXT("Holding loc"));
 	
 	Holdingloc->SetRelativeLocation(FVector(20.f, 0.f, 60.f));
@@ -79,6 +80,7 @@ void AFPSCharacter::Tick(float DeltaTime)
 			if(m_Hit.GetActor()->GetClass()->IsChildOf(APickUpAction::StaticClass()))
 			{
 				CurrentItem = Cast<APickUpAction>(m_Hit.GetActor());
+				
 			}
 		}
 		else

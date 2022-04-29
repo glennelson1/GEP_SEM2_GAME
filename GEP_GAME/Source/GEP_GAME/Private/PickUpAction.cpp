@@ -63,7 +63,7 @@ void APickUpAction::RotateActor()
 
 void APickUpAction::PickUp()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Screen Message"));
+	
 	m_Holding = !m_Holding;
 	m_Gravity = !m_Gravity;
 	MyMesh->SetEnableGravity(m_Gravity);
@@ -73,7 +73,7 @@ void APickUpAction::PickUp()
 
 	if(!m_Holding)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("yes"));
+		
 		m_ForwardVector = m_PlayerCamera->GetForwardVector();
 		MyMesh->AddForce(m_ForwardVector* 200000 * MyMesh->GetMass());
 	}

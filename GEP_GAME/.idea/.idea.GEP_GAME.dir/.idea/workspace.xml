@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GEP_GAME.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GEP_GAME.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-GEP_GAME.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-GEP_GAME.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/-GameAssets/BP_FPSCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/-GameAssets/BP_FPSCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/-GameAssets/BP_PickUpAction.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/-GameAssets/BP_PickUpAction.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/-Levels/MainLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/-Levels/MainLevel.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" afterDir="false" />
@@ -15,21 +17,33 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GEP_GAMEEditor/Development/Metadata-HotReload.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/ActionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FPSCharacter.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/FPSCharacter.cpp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/UE4Editor-GEP_GAME.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/GEP_GAME/UE4Editor-GEP_GAME.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/GEP_GAME/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/GEP_GAME/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-A8EE940B4678D7C6DB008E90855D6CE0/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-EE13638F4DFCB4C6557143A0B9C0675A/CrashReportClient.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.28-23.25.45.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.28-23.29.13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.28-23.25.04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.28-23.26.04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.28-23.27.19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.28-23.27.24.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.28-23.36.02.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME-backup-2022.04.28-23.38.48.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/GEP_GAME.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/GEP_GAME.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GEP_GAME/Private/FPSCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GEP_GAME/Private/FPSCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GEP_GAME/Private/PickUpAction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GEP_GAME/Private/PickUpAction.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26yuwDudU5fU9wkLUHEmQ7TQMYx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -96,6 +110,8 @@
       <updated>1648408386105</updated>
       <workItem from="1648408402590" duration="40000" />
       <workItem from="1651190253377" duration="118000" />
+      <workItem from="1651255983934" duration="252000" />
+      <workItem from="1651256370020" duration="1238000" />
     </task>
     <servers />
   </component>
