@@ -1,0 +1,7 @@
+C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4\Development\GEP_GAME\Definitions.GEP_GAME.h
+C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Source\GEP_GAME/Public/PickUpAction.h
+C:\Epic\UE4\UE_4.26.2\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Epic\UE4\UE_4.26.2\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\CameraComponent.generated.h
+C:\Users\n012782k.STUDENT.002\Documents\GEP_SEM2_GAME\GEP_GAME\Intermediate\Build\Win64\UE4\Inc\GEP_GAME\PickUpAction.generated.h
